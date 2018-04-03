@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Liuda Popescu/Documents/java/helloWorld1/lib/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Liuda Popescu/Documents/java/helloWorld1/lib/hsqldb.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Liuda Popescu/Documents/java/helloWorld1/lib/junit-4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Liuda Popescu/Documents/java/helloWorld1/lib/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=beg-hibernate-4ed-master&amp;ivyXmlPath=pom.xml&amp;confs=*"/>
+	<classpathentry kind="lib" path="C:/Users/Liuda Popescu/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liuda Popescu/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liuda Popescu/.m2/repository/org/hibernate/hibernate-entitymanager/4.3.5.Final/hibernate-entitymanager-4.3.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liuda Popescu/.m2/repository/org/glassfish/web/javax.el/2.2.1/javax.el-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liuda Popescu/Documents/java/helloWorld1/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liuda Popescu/Documents/java/helloWorld1/lib/log4j-api-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liuda Popescu/Documents/java/helloWorld1/lib/log4j-core-2.8.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

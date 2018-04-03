@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection settings -->
+		<property name="connection.driver_class">
+			org.hsqldb.jdbc.JDBCDriver
+		</property>
+		<property name="hibernate.connection.url">
+			jdbc:hsqldb:db5;shutdown=true
+		</property>
+		<property name="connection.username">sa</property>
+		<property name="connection.password" />
+
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.HSQLDialect
+		</property>
+		<!-- Use the C3P0 connection pool provider -->
+	<!--	<property name="hibernate.c3p0.min_size">5</property>
+		<property name="hibernate.c3p0.max_size">20</property> -->
+		<property name="hibernate.c3p0.timeout">10</property>
+		
+		<!-- Show and print nice SQL on stdout -->
+		<property name="show_sql">true</property>
+		
+		<!-- List of XML mapping files -->
+		<property name="hbm2ddl.auto">create-drop</property>
+		<property name="hibernate.generate_statistics">true</property>
+		<mapping resource="hello/Message.hbm.xml" />
+		
+	</session-factory>
+</hibernate-configuration>
